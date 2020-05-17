@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <body>
+            <script>
+                let username =prompt("Who's There?",'');
+                 if (username == 'Admin'){
+                     let pass = prompt("password?",'');
+                     if(pass == 'TheMaster'){
+                         alert('Welcome!');
+                     }else if(pass=='' || pass==null){
+                         alert('cancelled');
+                     }else{
+                         alert('wrong password');
+                     }
+                 }else if (username=='' || username==null){
+                     alert('canceled');
+                 }else{
+                     alert("I don't know");
+                 }
+        </body>
+    </head>
+</html>
